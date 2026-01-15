@@ -1,4 +1,5 @@
 import page_replacement
+import deadlock_detection
 def show_header():
     print("=" * 40)
     print(" MINI SIMULASI SISTEM OPERASI ")
@@ -27,7 +28,7 @@ def run_page_replacement():
 
 def run_deadlock_detection():
     print("\n--- Deadlock Detection ---")
-    print("Modul Deadlock Detection belum diimplementasikan.")
+    deadlock_detection.main()
     input("Tekan Enter untuk kembali ke menu utama...")
 
 
