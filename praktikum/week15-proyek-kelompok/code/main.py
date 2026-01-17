@@ -1,3 +1,4 @@
+import cpu_scheduling
 import page_replacement
 import deadlock_detection
 def show_header():
@@ -16,7 +17,7 @@ def show_main_menu():
 
 def run_cpu_scheduling():
     print("\n--- CPU Scheduling ---")
-    print("Modul CPU Scheduling belum diimplementasikan.")
+    cpu_scheduling.main()
     input("Tekan Enter untuk kembali ke menu utama...")
 
 
