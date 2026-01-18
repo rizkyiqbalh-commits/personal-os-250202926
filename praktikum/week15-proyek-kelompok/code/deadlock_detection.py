@@ -1,17 +1,20 @@
-# Nama file CSV
 import os
 filename = "dataset.csv"
 
-# Baca CSV manual
 proses = []
 alokasi = []
 request = []
 def main():
+    global proses, alokasi, request
+    proses.clear()
+    alokasi.clear()
+    request.clear()
+    
     try:
         base_dir = os.path.dirname(os.path.abspath(__file__))
         file_path = os.path.join(base_dir, "data", "dataset.csv")
         with open(file_path, "r") as f:
-            next(f)  # skip header
+            next(f) 
             for line in f:
                 line = line.strip()
                 if line == "":
@@ -24,7 +27,6 @@ def main():
         print("Error: File CSV tidak ditemukan. Pastikan 'dataset_deadlock.csv' ada di folder yang sama dengan script")
         exit()
 
-    # Deteksi deadlock sederhana
     deadlock = []
 
     for i in range(len(proses)):
@@ -46,22 +48,19 @@ def main():
             if not found:
                 break
 
-    # Tampilkan data proses
-    print("=== Data Proses & Resource ===")
-    print("Proses | Alokasi | Request")
+    print("=== Data Philosopher & Fork ===")
+    print("Philosopher | Allocation | Request")
     print("-------------------------")
     for i in range(len(proses)):
         print(proses[i], "     |", alokasi[i], "     |", request[i])
 
-    # Kondisi sistem
     if deadlock:
         print("\nKondisi Sistem: DEADLOCK TERDETEKSI")
     else:
         print("\nKondisi Sistem: AMAN")
 
-    # Status setiap proses
     print("\n=== Status Proses ===")
-    print("Proses | Status")
+    print("Philosopher | Status")
     print("----------------")
     for p in proses:
         if p in deadlock:
@@ -69,7 +68,6 @@ def main():
         else:
             print(p, "     | Aman")
 
-    # Pola circular wait
     if deadlock:
         print("\nPola Circular Wait:")
         print(" -> ".join(deadlock) + " -> " + deadlock[0])
