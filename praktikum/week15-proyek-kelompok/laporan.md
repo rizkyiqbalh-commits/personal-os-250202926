@@ -193,13 +193,16 @@ Karena tidak ada proses yang dapat melepaskan resource, sistem berada dalam kond
 
 ## 5. Pembagian Peran dan Kontribusi Anggota
 
+![image](<screenshots/kontribusi_kelompok.png>)
+
+
 | NIM | Nama | Peran | Kontribusi |
 | :--- | :--- | :--- | :--- |
-| 250202926 | Rizky Iqbal Hisyam | Project Lead/Integrator|  |
-| 250202957 | Nanang Apriyanto | Developer 1 (Modul CPU Scheduling) |  | 
-| 250202946 | Lintang Galih Prayogi | Developer 2 (Modul Page Replacement) |  |
-| 250202924 | Putri Amaliya Rahmadani | Developer 3 (Deadlock Detection) |  |
-| 250202983 | Sukmani Intan Jumala | Dokumentasi & QA |  |
+| 250202926 | Rizky Iqbal Hisyam | Project Lead/Integrator| - Inisiasi project (merancang struktur awal dan main.py) <br> - merge PR & fix conflict <br> - Uji modul aplikasi  |
+| 250202957 | Nanang Apriyanto | Developer 1 (Modul CPU Scheduling) | - Merancang modul aplikasi CPU Scheduling <br> - Membuat dataset process.csv <br> - Analisis eksekusi aplikasi | 
+| 250202946 | Lintang Galih Prayogi | Developer 2 (Modul Page Replacement) | - Merancang modul aplikasi Page Replacement (FIFO) <br> - Membuat dataset reference_string.txt <br> - Analisis eksekusi aplikasi |
+| 250202924 | Putri Amaliya Rahmadani | Developer 3 (Deadlock Detection) | - Merancang modul apllikasi Deadlock Detection <br> - Membuat dataset.csv <br> - Analisis eksekusi aplikasi |
+| 250202983 | Sukmani Intan Jumala | Dokumentasi & QA | - Menyusun laporan proyek <br> - Mengumpulkan dokumentasi eksekusi (screenshots) <br> - Menyelesaikan quiz |
 --- 
 
 ## 6. Quiz
