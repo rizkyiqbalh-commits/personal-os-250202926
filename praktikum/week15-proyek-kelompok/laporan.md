@@ -197,7 +197,7 @@ Karena tidak ada proses yang dapat melepaskan resource, sistem berada dalam kond
 
 
 | NIM | Nama | Peran | Kontribusi |
-| :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: |
 | 250202926 | Rizky Iqbal Hisyam | Project Lead/Integrator| - Inisiasi project (merancang struktur awal dan main.py) <br> - merge PR & fix conflict <br> - Uji modul aplikasi  |
 | 250202957 | Nanang Apriyanto | Developer 1 (Modul CPU Scheduling) | - Merancang modul aplikasi CPU Scheduling <br> - Membuat dataset process.csv <br> - Analisis eksekusi aplikasi | 
 | 250202946 | Lintang Galih Prayogi | Developer 2 (Modul Page Replacement) | - Merancang modul aplikasi Page Replacement (FIFO) <br> - Membuat dataset reference_string.txt <br> - Analisis eksekusi aplikasi |
