@@ -54,11 +54,19 @@ code/
 1. Pastikan bahasa pemrograman python telah terpasang.
 2. Buka terminal, masuk ke folder `week15-proyek-kelompok/code/`.
 3. Jalankan file main.py 
+4. Pilihan menu 1 menjalankan simulasi CPU Scheduling menggunakan algoritma FCFS.
+5. Pilihan menu 2 menjalankan simulasi Page Replacement menggunakan algoritma FIFO.
+6. Pilihan menu 3 menjalankan simulasi Deadlock Detection untuk mendeteksi kondisi deadlock.
+7. Pilihan menu 0 digunakan untuk mengakhiri program dan keluar dari aplikasi.
 
 ### Menjalankan via Docker
 1. Masuk ke direktori `week15-proyek-kelompok/code/` melalui terminal.
 2. Build image docker dengan perintah `docker build -t week15-proyek-kelompok .`
 3. Setelah proses build image selesai, jalankan program dengan perintah `docker run -it --rm week15-proyek-kelompok`
+4. Pilihan menu 1 menjalankan simulasi CPU Scheduling menggunakan algoritma FCFS.
+5. Pilihan menu 2 menjalankan simulasi Page Replacement menggunakan algoritma FIFO.
+6. Pilihan menu 3 menjalankan simulasi Deadlock Detection untuk mendeteksi kondisi deadlock.
+7. Pilihan menu 0 digunakan untuk mengakhiri program dan keluar dari aplikasi.
 
 ---
 
@@ -83,7 +91,7 @@ File ini berisi deretan angka yang merepresentasikan reference string untuk simu
 1,3,4,7,3,1,2,1,5,7
 ```
 
-### dataset.csv.txt (Deadlock Detection)
+### dataset.csv (Deadlock Detection)
 File ini berisi data sebagai berikut:
 |Philosopher|Allocation|Request|
 |:----:|:----:|:----:|
