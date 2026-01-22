@@ -30,7 +30,7 @@ Aplikasi ini merupakan program berbasis terminal yang mensimulasikan tiga konsep
 
 ---
 
-## 3. Struktur Folder
+## 3. Struktur Proyek
 
 ```
 code/

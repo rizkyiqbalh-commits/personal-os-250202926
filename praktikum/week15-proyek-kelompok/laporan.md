@@ -29,7 +29,14 @@ Adapun tujuan dari pelaksanaan proyek ini, sebagai berikut:
 ---
 
 ## 2. Arsitektur Aplikasi
-### 2.1 Modul dan Alur Data
+### 2.1 Arsitektur
+- Aplikasi menggunakan arsitektur modular.
+- Satu program utama (main.py) berfungsi sebagai pengendali alur eksekusi dan menu berbasis CLI.
+- Aplikasi terdiri dari beberapa modul independen yang merepresentasikan konsep sistem operasi (CPU Scheduling, Page Replacement, dan Deadlock Detection).
+- Setiap modul membaca dataset eksternal dalam format CSV/TXT sebagai input.
+- Hasil pemrosesan setiap modul ditampilkan dalam bentuk tabel dan ringkasan metrik pada terminal.
+
+### 2.2 Modul dan Alur Data
 **a. CPU Scheduling**
  - Studi Kasus: File Transfer       
     Kami menggunakan analogi file transfer, misal dalam sistem pemindahan file antar media penyimpanan, keterbatasan sumber daya membuat file diproses satu per satu dalam antrian. Sistem menggunakan algoritma First Come First Served (FCFS), yaitu file yang masuk lebih dulu akan dipindahkan terlebih dahulu hingga selesai, baru file berikutnya diproses. Dengan demikian, setiap file diproses secara adil sesuai waktu kedatangannya, meskipun ukuran file berbeda-beda.      
@@ -63,7 +70,7 @@ Kami menggunakan analogi mapping CCTV, misal sebuah kampus memiliki beberapa CCT
 - Studi Kasus : Dining Philosophers     
 Pada suatu meja makan terdapat beberapa orang yang makan secara bersamaan. Setiap orang membutuhkan 2 garpu untuk dapat makan. Dalam kondisi ini, masing-masing orang telah memegang satu alat makan, namun masih menunggu alat makan lain yang sedang digunakan oleh orang lain. Akibatnya, tidak ada satu pun yang dapat mulai makan karena seluruhnya berada dalam keadaan saling menunggu. Situasi tersebut merepresentasikan kondisi deadlock, yang dapat dideteksi melalui adanya pola circular wait antar individu.      
 - Input :       
-    - Data diambil dari file dataset.csv dan diproses oleh program.     
+    - Data diambil dari file `dataset.csv` dan diproses oleh program.     
     - Proses (Philosopher): P1, P2, P3, P4      
     - Resource (Fork): F1, F2, F3, F4       
 - Alokasi Resource:     
