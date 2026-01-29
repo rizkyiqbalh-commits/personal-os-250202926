@@ -99,9 +99,9 @@ ls -l percobaan.txt
 
 ## Hasil Eksekusi
 Screenshot hasil percobaan:
-![Screenshot hasil](./screenshots/linux_pwd.png)
-![Screenshot hasil](./screenshots/linux_cat.png)
-![Screenshot hasil](./screenshots/linux_permission.png)
+![image](./screenshots/linux_pwd.png)
+![image](./screenshots/linux_cat.png)
+![image](./screenshots/linux_permission.png)
 
 ---
 
