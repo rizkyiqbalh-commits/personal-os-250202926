@@ -44,9 +44,9 @@ sudo dmesg | tail -n 10
 
 ## Hasil Eksekusi
 Screenshot hasil percobaan dan diagram:
-![alt text](./screenshots/syscall_ls.png)
-![alt text](./screenshots/syscall_dmesg.png)
-![alt text](./screenshots/syscall-diagram.png)
+![image](./screenshots/syscall_ls.png)
+![image](./screenshots/syscall_dmesg.png)
+![image](./screenshots/syscall-diagram.png)
 
 ---
 
