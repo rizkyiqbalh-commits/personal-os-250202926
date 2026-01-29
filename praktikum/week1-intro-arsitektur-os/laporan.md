@@ -48,7 +48,7 @@ dmesg | head
 
 ## Hasil Eksekusi
 Screenshot hasil percobaan:
-![alt text](./screenshots/ScreenshotsHasilTerminal.png)
+![image](./screenshots/ScreenshotsHasilTerminal.png)
 
 ---
 
